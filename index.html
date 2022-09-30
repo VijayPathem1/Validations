@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Alert</title>
+</head>
+<style>
+body{
+    background-image: url("colors.png");
+    margin: 150px;
+    outline: none;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin-left: 400px;
+    margin-bottom: 200px;
+    background-size: cover;
+}
+button{
+    width:277px;
+    background-color: rgb(152, 152, 229);
+    margin-top: 20px;
+}
+form{
+    height: 260px;
+    width: 600px;
+    
+}
+.name{
+    height: 10px;
+    width:270px;
+    border-top: 2px black;
+    border-right: 2px black;
+    border-left: 2px black;
+    font-size: 12px;
+    background: transparent;
+}
+h{
+    font-weight:300px;
+    font-size: 14px;
+}
+</style>
+<body>
+<form>
+    <h1>Custom Alert</h1>
+    <table>
+        <tr>
+            <td>
+                <h>Name</h><br><br>
+                <input type="text" class="name" placeholder="Enter your Name" maxlength="16" minlength="3" required>
+            </td>
+        </tr>
+        <tr>
+            <td><h>Age</h><br><br>
+                <input type="number" class="name" min="18" max="55" placeholder="Enter your age" required>
+            </td>
+        </tr>
+        <tr>
+            <td><h>Email</h><br><br>
+                <input type="email" class="name" placeholder="Enter your email address" required>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3" align="center"><button type="submit">Submit</button></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
